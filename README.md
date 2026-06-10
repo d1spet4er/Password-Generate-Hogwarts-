@@ -1,42 +1,48 @@
-# Password-Generator
+# Password Generator
 
-This template should help get you started developing with Vue 3 in Vite.
+A secure password generation tool built with **Vue 3 + TypeScript + Vite**, featuring customizable character sets and real-time length adjustment.
 
-## Recommended IDE Setup
+![Vue](https://img.shields.io/badge/Vue-3.4-4FC08D?logo=vue.js) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript) ![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite) ![License](https://img.shields.io/badge/license-MIT-green)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## ✨ Features
 
-## Recommended Browser Setup
+- 🔐 **Password length control** — adjustable from 4 to 30 characters
+- ✅ **Character set selection** — uppercase, lowercase, digits, special symbols
+- ⚡ **Real-time generation** — updates instantly when any option changes
+- 📋 **One-click copy** — copy generated password to clipboard
+- 🎨 **Hogwarts-themed UI** — immersive wizarding world design
+- 📱 **Responsive layout** — works on desktop and mobile devices
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-## Type Support for `.vue` Imports in TS
+🌐 Live Demo
+https://password-generate-hogwarts.netlify.app/
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-## Customize configuration
+🛠 Tech Stack
+Vue 3 (Composition API)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+TypeScript
 
-## Project Setup
+Vite
 
-```sh
+CSS3 (custom styling)
+
+
+
+📁 Project Structure
+
+src/
+  components/          — Vue components
+  App.vue              — main application entry
+  main.ts              — application bootstrap
+  assets/              — global styles and static files
+
+
+
+  
+
+## 🚀 Getting Started
+
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
