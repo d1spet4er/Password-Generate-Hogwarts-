@@ -31,12 +31,14 @@ CSS3 (custom styling)
 
 📁 Project Structure
 
+
+```bash
 src/
   components/          — Vue components
   App.vue              — main application entry
   main.ts              — application bootstrap
   assets/              — global styles and static files
-
+```
 
 
   
